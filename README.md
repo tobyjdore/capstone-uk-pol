@@ -6,3 +6,11 @@ The aim of this project was to build a predictive model that would guess an MP's
 I also looked at the vocabularies of speakers from different parties, and carried out topic analysis on the speeches.
 
 My dataset was scraped from the <a href='http://www.britishpoliticalspeech.org/index.htm'>British Political Speech archive</a>.
+
+### Contents:
+
+#### Capstone-summary
+- Summary of project, results, working code.
+
+#### Data (folder)
+- Csv files of project data from initial scrape through stages of cleaning
