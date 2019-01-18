@@ -10,15 +10,32 @@
 
   <meta name="description" content="UK Political Speech Classifier">
   <meta name="author" content="Toby Dore">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./static/css/main.css" type="text/css">
 
 </head>
 
-<body>
+<header id="header" class="alt">
+  <nav id="nav">
+    <ul>
+      <li><a href="about">About this project</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <h1>The UK Political Speech Classifier</h1>
-  <p>This application takes UK political speeches and guesses whether the speaker was a member of the Conservative or Labour party.</p>
-  <p><a href="/submit">Get Started!</a></p>
+<body class="landing">
 
+  <section id="banner">
+    <h2>UK Political Speech Classifier</h2>
+    <p>Paste the text of a political speech into the box below and hit Guess Party
+       to see whether the model believes the speaker is in the Conservative or
+        Labour party.</p>
+
+  <form action="/predict" method='POST'>
+    <textarea name="speech_body" , rows="10" , cols="60"></textarea>
+    <button type="submit">Guess Party</button>
+  </form>
+  </section>
 </body>
 
 </html>

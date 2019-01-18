@@ -1,8 +1,7 @@
 from flask import Flask, render_template, request, jsonify
-import pandas as pd
+import numpy as np
 import pickle
 import flask
-# from build_model import *
 
 app = Flask(__name__)
 
@@ -16,10 +15,10 @@ def index():
     return render_template('index.html',
                            title='Home')
 
-@app.route('/submit')
+@app.route('/about')
 def submit():
-    return render_template('submit.html',
-                            title='Submit')
+    return render_template('about.html',
+                            title='About')
 
 @app.route('/predict', methods=['POST','GET'])
 def predict():
@@ -28,9 +27,13 @@ def predict():
 
         speech = inputs['speech_body']
         predicted = model.predict([speech])
+        con_prob = str(np.round(model.predict_proba([speech])[0][0]*100,1))
+        lab_prob = str(np.round(model.predict_proba([speech])[0][1]*100,1))
         return render_template('predict.html',
                                 title='Predict',
-                                predicted=predicted[0])
+                                predicted=predicted[0],
+                                con_prob=con_prob,
+                                lab_prob=lab_prob)
 
 if __name__ == '__main__':
     app.run(debug=True)
