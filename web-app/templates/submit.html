@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>UK Political Speech Classifier</title>
+
+  <meta name="description" content="UK Political Speech Classifier">
+  <meta name="author" content="Toby Dore">
+
+</head>
+
+<body>
+
+  <h1>Submit Your Text</h1>
+  <p>Paste your speech text into the input box below, and click the <span>Classify</span> button to predict the speaker's party.</p>
+
+  <form action="/predict" method='POST'>
+    <textarea name="speech_body" , rows="12" , cols="60"></textarea>
+    <button type="submit">Classify</button>
+  </form>
+
+</body>
+
+</html>
