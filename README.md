@@ -15,5 +15,5 @@ My dataset was scraped from the <a href='http://www.britishpoliticalspeech.org/i
 #### Data (folder)
 - CSV files of project data from initial scrape through stages of cleaning
 
-#### web-app
+#### web-app (folder)
 - flask code, web templates, and pickled model for the <a href='http://tobyjdore.pythonanywhere.com'>deployed classification model</a>.
