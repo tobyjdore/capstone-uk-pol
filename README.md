@@ -7,9 +7,9 @@ I also looked at the vocabularies of speakers from different parties, and carrie
 
 My dataset was scraped from the <a href='http://www.ukpol.co.uk'>UKPOL Political Speech Archive</a>.
 
-I've written a <a href='https://tobyjdore.github.io/ukpol/project'>project report</a> and I also kept a <a href='https://mydsblog.home.blog'>wordpress blog</a> of the process.
+Here is the <a href='https://tobyjdore.github.io/ukpol/project'>project report</a>, and I also kept a <a href='https://mydsblog.home.blog'>wordpress blog</a> of the process.
 
-### Contents:
+### Repository Contents:
 
 #### Capstone-summary
 - Summary of project, results, working code.
