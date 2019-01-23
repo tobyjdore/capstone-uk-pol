@@ -1,5 +1,5 @@
 # capstone-uk-pol
-## GA DSI7 Capstone Project - NLP analysis of UK political speeches
+## General Aseembly DSI7 Capstone Project - NLP analysis of UK political speeches
 
 The aim of this project was to build a predictive model that would guess an MP's party based on the text of a speech, without any obvous indicators like party names or party leader names.
 
