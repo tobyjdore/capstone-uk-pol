@@ -12,7 +12,7 @@ Here is the <a href='https://tobyjdore.github.io/ukpol/project'>project report</
 ### Repository Contents:
 
 #### Capstone-summary
-- Summary of project, results, working code.
+- Executive summary of project, results, working code.
 
 #### Data (folder)
 - CSV files of project data from initial scrape through stages of cleaning
