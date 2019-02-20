@@ -23,8 +23,11 @@ Here is the <a href='https://tobyjdore.github.io/ukpol/project'>project report</
 #### Capstone-summary
 - Executive summary of project, results, working code.
 
-#### Data (folder)
+#### project-notebooks (folder)
+- All of the working notebooks I used for the project.
+
+#### data (folder)
 - CSV files of project data from initial scrape through stages of cleaning
 
 #### web-app (folder)
-- flask code, web templates, and pickled model for the <a href='http://tobyjdore.pythonanywhere.com'>deployed classification model</a>.
+- Flask code, web templates, and pickled model for the <a href='http://tobyjdore.pythonanywhere.com'>deployed classification model</a>.
