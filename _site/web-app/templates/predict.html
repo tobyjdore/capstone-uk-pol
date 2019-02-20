@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>UK Political Speech Classifier</title>
+
+  <meta name="description" content="UK Political Speech Classifier">
+  <meta name="author" content="Toby Dore">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./static/css/main.css" type="text/css">
+
+</head>
+<body class="landing">
+<p>
+<p>
+<p>
+<p>
+<header id="header" class="alt">
+  <nav id="nav">
+    <ul>
+      <li><a href="index">Home</a></li>
+      <li><a href="about">About this project</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="banner">
+  <h2>Predicted Party:</h2><br>
+  <h2>{{ predicted }}</h2><br>
+  <p>Percentage Conservative: {{ con_prob }}<br>Percentage Labour: {{ lab_prob }}</p>
+</section>
+</body>
+
+</html>
