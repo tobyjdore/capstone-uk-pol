@@ -7,13 +7,13 @@ I also looked at the vocabularies of speakers from different parties, and carrie
 
 My dataset was scraped from the <a href='http://www.ukpol.co.uk'>UKPOL Political Speech Archive</a>.
 
-Trying out various models I got the following F1 scores, ranked by macro F1 average:
+Trying out various models I got the following F1 scores, ranked by macro F1 average:<br>
 <img src='summary-images/model-results.png'>
 
-The Multi-Layer Perceptron had the best results and gave the following confusion matrix for the test set (columns are predicted, rows are actual):
+The Multi-Layer Perceptron had the best results and gave the following confusion matrix for the test set (columns are predicted, rows are actual):<br>
 <img src='summary-images/confusion-matrix.png'>
 
-ROC and Precision-Recall curves:
+ROC and Precision-Recall curves:<br>
 <img src='summary-images/roc-curve.png'>
 
 Here is the <a href='https://tobyjdore.github.io/ukpol/project'>project report</a>, and I also kept a <a href='https://mydsblog.home.blog'>wordpress blog</a> of the process.
